@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+.block1{
+    background-image: url(./imges/pink.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 950px;
+    margin-left: 100px;
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+}
+.agent {
+    margin-top: 60px;
+    width: 240px;
+
+}
+.agent h1{
+    font-family:"Bebas Neue";
+    font-style: normal;
+    font-size: 126px;
+    line-height: 124px;
+    letter-spacing: 0.1em;
+    transform: rotate(90deg);
+    color: ivory;
+    -webkit-text-stroke: 1px black;
+}
+.imges{
+    width: 240px;
+    height: 500px;
+    background-size: cover;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.main h1 {
+    font-family:"Bebas Neue";
+    font-style: normal;
+    font-size: 42px;
+    line-height: 94px;
+    letter-spacing: 0.1em;
+    transform: rotate(90deg);
+    padding-top: 240px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+}
+.main h3{
+    transform: rotate(90deg);
+}
+.Card:nth-child(1){
+    padding-left: 400px;
+    
+}
+.Card:nth-child(2){
+    margin-left: -100px;    
+}
+.Card:nth-child(3){
+    margin-left: -100px;    
+}
+.Card {
+    padding-top: 20px;
+}
+.Card:last-child {
+    margin-left: -145px;
+  }
+
+.Card div p {
+    font-family:"Arial","Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    position: relative;
+    width: 294px; 
+    text-align: left;
+    padding-left: 400px;
+    padding-top: 20px;
+    left: -150px;
+    top: -1040px;
+    color: #FF4656;
+    transform: rotate(90deg);
+}
+.Card div h1 {
+    position: relative;
+    width: 514px;
+    height: 94px;
+    left: -130px;
+    top: -860px;
+    font-family:"Arial","Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 94px;
+    letter-spacing: 0.1em;
+    border: none;
+    text-align: left;
+    transform: rotate(90deg);
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+#h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+
+.Card div {
+    top: 2000px;
+}
+.box{
+    width: 440px;
+    height: 110px;
+    left: 173px;
+    margin-top: -2351px;
+    position: relative;
+    background: #1F2326;
+    border: 2px solid #F8F8F8;
+    box-sizing: border-box;
+    display: flex;
+    align-items: left;
+}
+.box div {
+    margin-left: 40px;
+    margin-top: 29px;
+}
